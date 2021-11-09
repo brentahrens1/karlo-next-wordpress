@@ -1,0 +1,71 @@
+.container {
+    max-width: 1200px;
+    padding-top: 3rem;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+
+    .header {
+        position: sticky;
+        top: 3rem;
+        left: 1rem;
+
+        .textDiv {
+            margin-bottom: 1.5rem;
+
+            p {
+                margin: 0;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .email {
+        text-decoration: underline;
+    }
+
+    .logo {
+        width: 100%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .logoHide {
+        display: none;
+    }
+
+    .postContainer {
+        position: sticky;
+        top: 0;
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+            
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .brand {
+        background-color: #D2C4FA;
+        text-decoration: underline;
+
+        &:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    }
+}
